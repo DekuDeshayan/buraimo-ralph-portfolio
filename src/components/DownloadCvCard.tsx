@@ -1,4 +1,5 @@
-import React from 'react';
+import { FaReact } from 'react-icons/fa';
+import { SiFigma, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 
 const CardComponent = () => {
   return (

@@ -58,7 +58,9 @@ const Navbar = () => {
                     className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
                   >
                     <Link
-                      onClick={() => setShowMenu(false)}
+                      // onClick={() => setShowMenu(false)}
+                      onSetActive={() => setShowMenu(false)} // Trigger setShowMenu(false) when the link is activated
+                      onSetInactive={() => setShowMenu(false)} // Trigger setShowMenu(false) when the link is deactivated
                       activeClass="active"
                       to={item.link}
                       spy={true}
